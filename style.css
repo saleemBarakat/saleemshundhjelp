@@ -107,7 +107,6 @@ img {
   @media screen and (max-height: 800px) {
     .slideshow-container {
       height: 80%;
-      margin-bottom: 50px;
     }
     .mySlides {
       height: 80%;
