@@ -95,7 +95,7 @@ img {
     display: block;
   }
   
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 800px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {
       display: none;
     }
@@ -104,16 +104,18 @@ img {
       display: block;
     }
   }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-height: 800px) {
     .slideshow-container {
       height: 80%;
+      margin-bottom: 50px;
     }
     .mySlides {
       height: 80%;
+      margin-bottom: 50px;
     }
   }
   
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 800px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
@@ -192,6 +194,6 @@ img {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 500px) {
-  .prev, .next,.text {font-size: 31px}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }
